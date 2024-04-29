@@ -7,6 +7,8 @@ defmodule TestingReleaseWeb.Router do
 
   scope "/api", TestingReleaseWeb do
     pipe_through :api
+
+    get "/", HomeController, :index
   end
 
   # Enable LiveDashboard in development
