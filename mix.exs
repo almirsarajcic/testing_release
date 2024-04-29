@@ -19,7 +19,7 @@ defmodule TestingRelease.MixProject do
   def application do
     [
       mod: {TestingRelease.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      extra_applications: [:ex_unit, :logger, :runtime_tools]
     ]
   end
 
